@@ -4,6 +4,10 @@
 
 ## 使用方法
 
+[直接下载](https://github.com/gclhaha/image-compressor/releases)  
+
+或
+
 1. **安装Go编程语言**
    - 确保你的计算机上安装了Go编程语言的环境。
 
