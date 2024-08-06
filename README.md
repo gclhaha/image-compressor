@@ -9,9 +9,23 @@
 
 2. **下载和编译程序**
    - 下载项目代码并使用以下命令编译：
-  
+
+     Windows:
+
      ```bash
-     go build -o image-compressor
+     GOOS=windows GOARCH=amd64 go build -o image-compressor.exe
+     ```
+
+     Linux:
+
+     ```bash
+     GOOS=linux GOARCH=amd64 go build -o image-compressor
+     ```
+
+     Mac:
+
+     ```bash
+     GOOS=darwin GOARCH=amd64 go build -o image-compressor
      ```
 
 3. **运行程序**
